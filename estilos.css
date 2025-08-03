@@ -96,12 +96,14 @@ body {
 }
 
 .temporada {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 20px;
-  background-color: #999;
-  padding: 20px;
+    border: 10px solid #000000ff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    background-color: #999;
+  padding: 40px;
 }
 
 .temporada .info {
@@ -112,6 +114,6 @@ body {
 }
 
 .temporada iframe {
-  flex-shrink: 0;
+  flex-shrink: 1;
   
 }
