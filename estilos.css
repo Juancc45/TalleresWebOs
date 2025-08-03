@@ -94,15 +94,24 @@ body {
     float: left;
    
 }
-.videoTTemporadas {
-    max-width: 100%;
-    width auto;
-    float: right;
-   
+
+.temporada {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  background-color: #999;
+  padding: 20px;
 }
-.temporadas {
-    max-width: 2000px;
-    margin: auto; /* Centra horizontalmente */
-    text-align: left; /* Alinea el texto a la izquierda */
-    padding: 20px;
+
+.temporada .info {
+  font-family: 'FortniteFont', sans-serif;
+  font-size: 24px;
+  color: black;
+  flex: 1;
+}
+
+.temporada iframe {
+  flex-shrink: 0;
+  
 }
