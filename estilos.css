@@ -45,11 +45,13 @@ img[alt="Logo"] {
 
 .subtitulo-tabla {
     font-weight: bold;
+    font-size: 30px;
 }
 
 .tabla {
     width: 100%;
     border-collapse: collapse;
+    font-size: 40px;
     
 }
 
@@ -58,10 +60,12 @@ img[alt="Logo"] {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 12px;
+    font-size: 30px;
+    color: #000000d2;
 }
 
 .tabla thead {
-    background-color: #008080;
+    background-color: #6DB8FA;
     color: white;
 }
 
@@ -70,7 +74,7 @@ img[alt="Logo"] {
 }
 
 .tabla tbody tr:hover {
-    background-color: #008080;
+    background-color:#6DB8FA;
 }
 
 @font-face {
@@ -89,4 +93,16 @@ body {
     width auto;
     float: left;
    
+}
+.videoTTemporadas {
+    max-width: 100%;
+    width auto;
+    float: right;
+   
+}
+.temporadas {
+    max-width: 2000px;
+    margin: auto; /* Centra horizontalmente */
+    text-align: left; /* Alinea el texto a la izquierda */
+    padding: 20px;
 }
