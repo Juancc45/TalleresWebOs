@@ -1,0 +1,92 @@
+.parrafo {
+    max-width: 20000px;
+    font-size: 30px;
+    color: #000000d2;
+    line-height: 1.5;
+    text-align: justify;
+    margin: auto; /* Centra horizontalmente */
+    text-align: center; /* Centra el texto */
+    opacity: 0.9;
+    padding: 20px;
+}
+
+.contenido-principal {
+    max-width: 2000px;
+    margin: auto; /* Centra horizontalmente */
+    text-align: center; /* Centra el texto */
+    padding: 20px;
+}
+
+.menu-principal {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    background-color: #6DB8FA;
+}
+
+.menu-principal li a {
+    font-size: 50px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.menu-principal li a:hover {
+    color: #043158ff;
+}
+
+img[alt="Logo"] {
+    width: 50px;
+}
+
+.subtitulo-tabla {
+    font-weight: bold;
+}
+
+.tabla {
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+
+.mi-tabla th,
+.tabla td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 12px;
+}
+
+.tabla thead {
+    background-color: #008080;
+    color: white;
+}
+
+.tabla tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.tabla tbody tr:hover {
+    background-color: #008080;
+}
+
+@font-face {
+    font-family: 'FortniteFont';
+    src: url('recursos/fortnite.otf') format('opentype');
+    
+}
+
+body {
+    font-family: 'FortniteFont', sans-serif;
+    font-size: 50px;
+}
+
+.videoPrincipal {
+    max-width: 100%;
+    width auto;
+    float: left;
+   
+}
