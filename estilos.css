@@ -5,7 +5,6 @@
     line-height: 1.5;
     text-align: justify;
     margin: auto; /* Centra horizontalmente */
-    text-align: center; /* Centra el texto */
     opacity: 0.9;
     padding: 20px;
 }
@@ -88,11 +87,11 @@ body {
     font-size: 50px;
 }
 
-.videoPrincipal {
-    max-width: 100%;
-    width auto;
+.imagen-principal{
     float: left;
-   
+    width: 300px;
+    height: 200px;
+    margin:20px;
 }
 
 .temporada {
