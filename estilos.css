@@ -108,7 +108,7 @@ body {
     font-family: 'FortniteFont', sans-serif;
     font-size: 50px;
     margin: 0;
-    padding-top: 20px; /* Espacio para el menú fijo */
+    padding-top: 0px; /* Espacio para el menú fijo */
 }
 
 
