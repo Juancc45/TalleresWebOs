@@ -134,22 +134,20 @@ body {
 
 .temporada .info {
   font-family: 'FortniteFont', sans-serif;
-  font-size: 24px;
+  font-size: 15px;
   color: black;
   flex: 1;
 }
 
-.temporada iframe {
-  flex-shrink: 1;
-  
-}
+
 
 .indice-temporadas {
   display: flex;
   justify-content: center;   
   flex-wrap: wrap;          
   padding: 0;
-  gap: 30px;                 
+  gap: 30px;               
+  font-size: 30px;  
 }
 
 .indice-temporadas li a {
@@ -157,4 +155,11 @@ body {
   text-decoration: underline;
   color: black;
   transition: all 0.3s ease;
+}
+ul li::marker {
+  color: red;
+}
+
+ol li::marker {
+  color: white;
 }
