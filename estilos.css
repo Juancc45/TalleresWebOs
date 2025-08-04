@@ -24,7 +24,7 @@
     display: flex;
     justify-content: center;
     gap: 40px;
-    background-color: #6DB8FA;
+    background-color: #66b0f1;
     position: fixed;
     top:0;
     width:100%;
@@ -33,7 +33,7 @@
 .menu-principal li a {
     font-size: 50px;
     text-decoration: none;
-    color: #ffffff;
+    color: white;
     font-weight: bold;
     transition: 0.3s;
 }
@@ -121,7 +121,7 @@ body {
     border: 10px solid #000000ff;
     border-radius: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     gap: 20px;
     background-color: #999;
@@ -152,4 +152,11 @@ body {
   font-weight: bold;
   text-decoration: underline;
   color: black;
+}
+
+.redes-sociales {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
 }
