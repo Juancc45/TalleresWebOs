@@ -1,11 +1,14 @@
 // Función global para ir a una sección específica
 function irASeccion(id) {
+    document.body.style.cursor = 'pointer';
+
     const destino = document.getElementById(id);
-    
     if (destino) {
         destino.scrollIntoView({ behavior: 'smooth' });
     }
 }
+
+
 
 document.addEventListener('DOMContentLoaded', function() {
     
