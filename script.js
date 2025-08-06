@@ -4,7 +4,14 @@ function irASeccion(id) {
 
     const destino = document.getElementById(id);
     if (destino) {
-        destino.scrollIntoView({ behavior: 'smooth' });
+        // Calcular la posición del elemento menos el margen del menú
+        const posicion = destino.offsetTop - 100;
+        // Scroll suave simple
+        window.scrollTo({
+            top: posicion,
+            behavior: 'smooth'
+        });
+        
     }
 }
 
