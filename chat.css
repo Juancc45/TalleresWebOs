@@ -32,6 +32,7 @@
   align-items: center;
   gap: 0.625em;
   box-sizing: border-box;
+  margin : 0.5em 0;
 }
 .chat-input {
   padding: 0.625em;

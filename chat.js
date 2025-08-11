@@ -12,6 +12,8 @@ const sendMessage = (e) => {
     const message={text: chatinput.value}
     chatMessages.innerHTML += chatMessageElement(message)
     chatinput.value = '' 
+    chatMessages.scrollTop = chatMessages.scrollHeight // Desplazar hacia abajo
+    
 }
 
 chatInputForm.addEventListener('submit', sendMessage)
