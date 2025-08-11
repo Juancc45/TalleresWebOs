@@ -4,14 +4,7 @@ function irASeccion(id) {
 
     const destino = document.getElementById(id);
     if (destino) {
-        // Calcular la posición del elemento menos el margen del menú
-        const posicion = destino.offsetTop - 100;
-        // Scroll suave simple
-        window.scrollTo({
-            top: posicion,
-            behavior: 'smooth'
-        });
-        
+        destino.scrollIntoView({ behavior: 'smooth' });
     }
 }
 
@@ -20,7 +13,7 @@ function irASeccion(id) {
 document.addEventListener('DOMContentLoaded', function() {
     
     // Obtener todas las secciones que queremos resaltar
-    const secciones = document.querySelectorAll('.temporada, .parrafo');
+    const secciones = document.querySelectorAll('.temporada, .parrafo, .contenido-principal');
     
     // Función para resaltar una sección
     function resaltarSeccion(seccion) {

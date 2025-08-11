@@ -10,7 +10,26 @@
     padding: 20px;
 }
 
+.parrafo-bienvenida {
+    font-family: 'BitcountVariable', sans-serif;
+    max-width: 20000px;
+    font-size: 30px;
+    color: #000000d2;
+    line-height: 1.5;
+    text-align: justify;
+    margin: auto; /* Centra horizontalmente */
+    opacity: 0.9;
+    padding: 20px;
+}
+
 .contenido-principal {
+    max-width: 2000px;
+    margin: auto; /* Centra horizontalmente */
+    text-align: center; /* Centra el texto */
+    padding: 20px;
+}
+
+.contenido-principal-bienvenida {
     max-width: 2000px;
     margin: auto; /* Centra horizontalmente */
     text-align: center; /* Centra el texto */
@@ -94,15 +113,14 @@ img[alt="Logo"] {
 @font-face {
     font-family: 'FortniteFont';
     src: url('recursos/fortnite.otf') format('opentype');
-    
 }
+
 @font-face {
     font-family: 'BitcountVariable';
     src: url('recursos/Bitcount/Bitcount-VariableFont_CRSV,ELSH,ELXP,slnt,wght.ttf') format('truetype');
     font-weight: 100 900; /* Rango para variable font */
     font-style: normal;
 }
-
 
 body {
     font-family: 'FortniteFont', sans-serif;
@@ -132,9 +150,20 @@ body {
     padding: 40px;
 }
 
+.temporada-bienvenida {
+    border: 10px solid #000000ff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #999;
+    padding: 40px;
+}
+
 .temporada .info {
   font-family: 'FortniteFont', sans-serif;
-  font-size: 15px;
+  font-size: 30px;
   color: black;
   flex: 1;
 }
