@@ -11,6 +11,7 @@ const sendMessage = (e) => {
     e.preventDefault()
     const message={text: chatinput.value}
     chatMessages.innerHTML += chatMessageElement(message)
+    chatinput.value = '' 
 }
 
 chatInputForm.addEventListener('submit', sendMessage)
