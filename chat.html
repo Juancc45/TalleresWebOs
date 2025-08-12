@@ -23,10 +23,17 @@
 <div class="chat-container">
     <h2 class="chat-header">Bienvenido al Chat</h2>
     <div class="chat-messages"> </div> 
-        <form class="chat-input-form">
-            <input type="text" class="chat-input" required placeholder="Escribe aquí" />
+        <form class="chat-input-form" novalidate>
+            <input type="text" class="chat-input" required placeholder="Escribe aquí" lang="es"
+            spellcheck="true" autocomplete="off" autocapitalize="off" aria-describedby="spell-status"/>
             <button type="submit" class="button send-button">Enviar</button>
         </form>
+
+        <div id="spell-status" class="spell-status" aria-live="polite" hidden>
+      <span class="status-icon" aria-hidden="true">⚠️</span>
+      <span class="status-text">Revisa la ortografía antes de enviar.</span>
+        </div>
+
     </div>
     <script src="chat.js"></script>
 </body>
